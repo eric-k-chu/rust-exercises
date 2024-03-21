@@ -28,6 +28,13 @@ Run the executable followed by the operation and two operands.
 - `<operand1>`: The first operand, which can be an floating point number.
 - `<operand2>`: The second operand, which can be an floating point number.
 
+## Example
+
+```
+$ ./target/release/minigrep.exe add 5 3
+Result: 8
+```
+
 ## Error Handling
 
 The calculator application handles the following errors:
@@ -44,13 +51,6 @@ The calculator application handles the following errors:
 - Arithmetic operations are performed based on the specified operation.
 - Input validation is done using Rust's `parse` method to ensure operands are valid numbers.
 - Error messages are displayed for various error scenarios.
-
-## Example
-
-```
-$ ./target/release/minigrep.exe add 5 3
-Result: 8
-```
 
 ## Future Enhancements
 
