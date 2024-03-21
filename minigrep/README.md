@@ -42,7 +42,7 @@ The calculator application handles the following errors:
 - The application is written in Rust.
 - It uses the `std::env` module to parse command-line arguments.
 - Arithmetic operations are performed based on the specified operation.
-- Input validation is done using Rust's `parse` method to ensure operands are integers.
+- Input validation is done using Rust's `parse` method to ensure operands are valid numbers.
 - Error messages are displayed for various error scenarios.
 
 ## Example
