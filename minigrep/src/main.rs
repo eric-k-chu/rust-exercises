@@ -26,7 +26,7 @@ fn main() {
         }
     };
 
-    // Performing
+    // Pattern matching operations
     let result = match operation.as_str() {
         "add" => operand1 + operand2,
         "subtract" => operand1 - operand2,
